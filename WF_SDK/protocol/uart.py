@@ -22,7 +22,7 @@ else:
 # import constants
 path.append(constants_path)
 import dwfconstants as constants
-from WF_SDK.device import check_error, warning
+from ..device import check_error, warning
 
 """-----------------------------------------------------------------------"""
 
