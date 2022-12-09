@@ -19,10 +19,11 @@ else:
     dwf = ctypes.cdll.LoadLibrary("libdwf.so")
     constants_path = sep + "usr" + sep + "share" + sep + "digilent" + sep + "waveforms" + sep + "samples" + sep + "py"
 
+
 # import constants
 path.append(constants_path)
 import dwfconstants as constants
-from g.device import check_error
+from .device import check_error
 
 """-----------------------------------------------------------------------"""
 
